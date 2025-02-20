@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Test Test Citra</title>
+    
+    <!--ini css internal> -->
+    <style>
+        .content {
+            color: aquamarine;
+        }
+        #content{
+            color: brown;
+        }
+    </style>
+
+    <!--ini css internal> -->
+    <link rel="stylesheet" href="css\style.css">
+
 </head>
 <body>
-    
+    <!--ini css inline> -->
+    <header style="display: flex; justify-content: space-between;">
+        <h1 style="color: blue;">Ini kiri</h1>
+        <h1 style="color: blue;">Ini kanan</h1>
+    </header>
+
+    <article>
+        <p class="content">Lorem Ipsom</p>
+        <p class="content" id="content">Lorem Ipsom</p>
+    </article>
+
+    <footer>
+        <span>Ini Footer</span>
+    </footer>
+
+    <template>
+        <P>Ini template</P>
+    </template>
 </body>
 </html>
